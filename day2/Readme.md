@@ -1,17 +1,3 @@
-# Stock Price Prediction with RNN/LSTM  
-
-This project demonstrates how to build and train a **Recurrent Neural Network (SimpleRNN or LSTM)** to predict **Tesla stock opening prices** using a publicly available Kaggle dataset.  
-
----
-
-## Project Workflow  
-1. **Dataset Loading** – Tesla stock price dataset is loaded from Kaggle CSV.  
-2. **Preprocessing** – Includes scaling, sequence framing (input windows), and train-test split.  
-3. **Modeling** – An LSTM (or SimpleRNN) model is built to predict the next-day opening price.  
-4. **Training** – Model is trained with multiple epochs and early stopping.  
-5. **Evaluation** – Performance measured with regression metrics (MAE, RMSE, MAPE).  
-6. **Visualization** – Predictions are plotted against actual values for interpretation.  
-
 ---
 
 ## Core Concept Questions  
